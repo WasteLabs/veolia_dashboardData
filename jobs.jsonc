@@ -1,0 +1,11 @@
+[
+    {
+        "bookedDate" : "2022-06-05", // the date on which the customer booked the job
+        "actualDate" : "2022-06-06", // the actual date on which the job was completed
+        "status": "completed", // could be "completed" or "pending"
+        "address" : "1 main street",
+        "postcode" : "SE4 1JY",
+        "numberOfBags" : 40, //how many bags were delivered across all bag types. For instance here 4 boxes of 10 = 40 
+        "routeCode": "WC01" // the unique Id of the route which completed the job, only required if status = completed 
+    }
+]

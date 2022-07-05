@@ -1,0 +1,20 @@
+{
+    "date": "2022-06-05", 
+    "numberRoutesOptimised":4, //how many routes are suggested by the routing algorithm
+    "numberRoutesActual":5, //how many routes were actually dispatched that day
+    "routes":[
+      {
+        "registration" : "ABC GKJ", //van registration plate
+        "driverName": "Modestus", 
+        "shiftStartActual": "08:30", 
+        "shiftEndActual": "15:30", 
+        "totalDistanceOptimised": 156.4, //total distance as suggested by the routing algorith
+        "totalDistanceActual": 165.5, //total distance actually measured by the odometer
+        "fuelConsumption" : 56.3, //total fuel consumption recorded
+        "numberStops": 45,
+        "minimumServiceTime" : 2.4, //the shortesst service time measured based on GPS and timestamp data
+        "maximumServiceTime" : 2.4, //the longest service time measured based on GPS and timestamp data
+        "averageServiceTime" : 2.4 //the average service time measured based on GPS and timestamp data
+      }
+    ]
+}
